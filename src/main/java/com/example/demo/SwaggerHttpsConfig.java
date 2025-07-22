@@ -12,7 +12,7 @@ public class SwaggerHttpsConfig {
     @Bean
     public OpenAPI customOpenAPI() {
         Server server = new Server();
-        server.setUrl("https://utilizando-gradle-production.up.railway.app");
+        server.setUrl("https://springboot-swagger-https-final-production.up.railway.app/");
         return new OpenAPI().servers(List.of(server));
     }
 }
